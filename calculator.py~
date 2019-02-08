@@ -1,4 +1,5 @@
 class calculator:
+
 	def __init__(self,x,y):
 		self.x=x
 		self.y=y
@@ -6,3 +7,9 @@ class calculator:
 		return x+y	
 
 print (add(5,10))
+
+	def subtract(x,y):
+		return x-y
+		
+print (subtract(15,8))
+
